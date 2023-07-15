@@ -16,7 +16,6 @@ const Hero = () => {
         IP_ADDRESS
     );
     const req = await response.json();
-    console.log(req);
     setData(req);
   };
 
@@ -25,7 +24,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center md:bg-hero bg-mobile bg-cover bg-center bg-no-repeat min-h-[50vh] w-full gap-10">
+    <div className="flex flex-col justify-center items-center md:bg-hero bg-mobile bg-cover bg-center bg-no-repeat min-h-[60vh] w-full gap-10 pt-10">
       <div className="flex justify-center items-center ">
         <div>
           <input
