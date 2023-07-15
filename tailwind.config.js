@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url(./src/assets/pattern-bg-desktop.png)",
-        mobile: "url(./src/assets/pattern-bg-mobile.png)",
+        hero: "url(/pattern-bg-desktop.png)",
+        mobile: "url(/pattern-bg-mobile.png)",
       },
     },
   },
